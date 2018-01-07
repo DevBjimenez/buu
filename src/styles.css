@@ -1,0 +1,94 @@
+/* You can add global styles to this file, and also import other style files */
+html * {
+  font-family: 'Roboto';
+}
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.gradient-1{
+  background: linear-gradient(to right, #4F4970, #FF7761);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.gradient-2{
+  background: linear-gradient(to right, #7792ff, #b877f7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.gradient-3{
+  background: linear-gradient(to right, #ff928d, #b877f7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.gradient-4{
+  background: linear-gradient(to right, #f0c2df, #ffc770);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.gradient-v2{
+  background: linear-gradient(to bottom, #7792ff, #b877f7);
+  height: 100%;
+  width: 100%;
+}
+.gradient-v1{
+  background: linear-gradient(to bottom, #4F4970, #FF7761);
+  height: 100%;
+  width: 100%;
+}
+.gradient-v3{
+  background: linear-gradient(to bottom, #ff928d, #b877f7);
+  height: 100%;
+  width: 100%;
+}
+.gradient-v4{
+  background: linear-gradient(to bottom, #f0c2df, #ffc770);
+  height: 100%;
+  width: 100%;
+}
+.font-12{
+  font-size: 12pt;
+}
+.font-13{
+  font-size: 13pt;
+}
+.font-28{
+  font-size: 28pt;
+}
+.full-width{
+  position: relative;
+  width: 100% !important;
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  src: url('./assets/Fonts/futura/futur.ttf');
+}
+@font-face {
+  font-family: 'Futura-medium';
+  font-style: normal;
+  src: url('./assets/Fonts/futura/futura medium bt.ttf');
+}
+
+.Futura{
+  font-family: 'Futura';
+}
+.futura-medium{
+  font-family: 'Futura-medium';
+}
+.no-margin{
+  margin: 0 !important;
+}
+.no-padding{
+  padding: 0 !important;
+}
+.center{
+  margin-left: -200px !important;
+  transition-property: margin-left;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
