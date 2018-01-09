@@ -87,8 +87,15 @@ body{
   padding: 0 !important;
 }
 .center{
-  margin-left: -200px !important;
-  transition-property: margin-left;
-  transition-duration: 1s;
-  transition-timing-function: linear;
+  margin: 0 auto !important;
+  // margin-left: -200px !important;
+  // transition-property: margin-left;
+  // transition-duration: 1s;
+  // transition-timing-function: linear;
 }
+.fondo-gris{
+  background-color:#f2f2f2;
+}
+.full-height {
+  height:100%;
+ }
