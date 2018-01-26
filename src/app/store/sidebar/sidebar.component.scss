@@ -4,3 +4,22 @@
   top: 50px;
   width: 110px;
 }
+.content-list{
+  position: relative;
+  top: 110px;
+
+}
+.product{
+  position: relative;
+  top: 200px;
+}
+.product span:before,
+.product span:after{
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 600px;
+}
