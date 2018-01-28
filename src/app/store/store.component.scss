@@ -5,6 +5,11 @@
 }
 .sidebar{
   position:relative;
-  width: 320px;
+  width: 429px;
   height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.conten-body{
+  padding:  50px 100px 0 100px;
 }

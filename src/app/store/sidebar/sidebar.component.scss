@@ -11,15 +11,30 @@
 }
 .product{
   position: relative;
-  top: 200px;
+  top: 270px;
+  line-height: 0;
 }
 .product span:before,
 .product span:after{
   content: "";
   position: absolute;
-  height: 5px;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
+  /* height: 5px; */
+  border-bottom: 2px solid white;
+  /* border-top: 1px solid white; */
   top: 0;
-  width: 600px;
+  width: 55px;
+}
+
+span:before{
+  right: 223px;
+
+}
+span:after{
+  left: 223px;
+}
+.border-left{
+  border-left: 4px solid white;
+}
+.margin-right{
+  margin-right: 80px;
 }

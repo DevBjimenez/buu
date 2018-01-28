@@ -1,0 +1,22 @@
+.content-buapps{
+  .input{
+    border-radius: 35px;
+    background: #ffffff;
+    height: 35px;
+    width: 600px;
+    padding-left: 10px;
+    box-shadow: 0px 2px 11px 0px #bdbdbd;
+    display: flex;
+    overflow: hidden;
+
+    .icon-input{
+      width: 100px !important;
+      height: 100%;
+      border-radius: 35px;
+    }
+  }
+  .buummer-r{
+    width: 280px;
+  }
+}
+

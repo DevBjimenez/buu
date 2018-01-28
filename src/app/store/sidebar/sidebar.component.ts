@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
+  listSelect: any = 1;
   constructor() { }
 
   ngOnInit() {
+    sessionStorage.getItem('selected') ? this.listSelect = sessionStorage.getItem('selected') : 0;
+  }
+
+  ListSelect() {
+    sessionStorage.setItem('selected', this.listSelect);
   }
 
 }
