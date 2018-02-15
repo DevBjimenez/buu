@@ -1,8 +1,8 @@
 <div class="store fondo-gris flex">
-  <div class="sidebar gradient-v2">
+  <div class="sidebar  gradient-v2"  [ngClass]="{'scrollShow': scroll == true}">
     <app-sidebar></app-sidebar>
   </div>
-  <div class="conten-body full-width">
+  <div class="conten-body ">
     <router-outlet></router-outlet>
   </div>
 </div>
