@@ -110,17 +110,16 @@ body{
 }
 .list{
   padding-left: 26px;
-  width: 100%;
-  height: 50px;
+  height: 45px;
   align-items: center;
   display: flex;
   cursor: pointer;
-  margin: 10px 0;
+  margin: 7px 0;
   border-left: 4px solid transparent;
 }
 .list  img{
   margin-right: 15px;
-  height: 40px;
+  height: 30px;
 }
 .white-text{
   color: #ffffff;
@@ -162,4 +161,23 @@ input[type="text"]{
 
 .margin-t-5{
   margin-top: 5px !important;
+}
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #8888889e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+  border-radius: 10px;
+  background-color: transparent;
+}
+.scrollShow::-webkit-scrollbar{
+  display: block !important;
+}
+.white{
+  background-color: #ffffff;
 }
