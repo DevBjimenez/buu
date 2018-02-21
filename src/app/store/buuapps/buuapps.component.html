@@ -14,115 +14,37 @@
     <img class="full-width" src="assets/Images/static/banner.png" alt="">
   </div>
   <div class="margin-t-40">
-    <div class="list-apps full-width">
-      <div class="progres gradient-2"></div>
+    <div class="flex-reverse flex item-center font-13">
+      <button class="tra border-not">Ver todo</button>
+      <div class="margin-l-10">
+        <select class="tra border-not" name="" id="">
+          <option value="1">Ordenar A-Z</option>
+        </select>
+      </div>
+    </div>
+    <div id="list-app" class="list-apps full-width">
+      <div id="prg" class="progres gradient-2"></div>
     </div>
   </div>
   <div class="margin-t-30">
-    <div class="flex-between item-center font-16">
+    <div id="cright" class="flex-between item-center font-16">
       <i class="fa fa-chevron-left" aria-hidden="true"></i>
-      <div id="sliderBu" class="flex ov-hi">
-        <div class="buapps font-13 white">
-          <div class="title text-center">
-            <span>Buapps 1</span>
-            <div class="img-buapps center margin-t-15">
-              <img src="assets/Images/imag.png" class="full-width" alt="">
-            </div>
-            <div class="descript center margin-t-15">
-              <span>Loremp imsup</span>
-            </div>
-          </div>
-        </div>
-        <div class="buapps font-13 white">
-          <div class="title text-center">
-            <span>Buapps 1</span>
-            <div class="img-buapps center margin-t-15">
-              <img src="assets/Images/imag.png" class="full-width" alt="">
-            </div>
-            <div class="descript center margin-t-15">
-              <span>Loremp imsup</span>
-            </div>
-          </div>
-        </div>
-        <div class="buapps font-13 white">
-          <div class="title text-center">
-            <span>Buapps 1</span>
-            <div class="img-buapps center margin-t-15">
-              <img src="assets/Images/imag.png" class="full-width" alt="">
-            </div>
-            <div class="descript center margin-t-15">
-              <span>Loremp imsup</span>
-            </div>
-          </div>
-        </div>
-        <div class="buapps font-13 white">
-          <div class="title text-center">
-            <span>Buapps 1</span>
-            <div class="img-buapps center margin-t-15">
-              <img src="assets/Images/imag.png" class="full-width" alt="">
-            </div>
-            <div class="descript center margin-t-15">
-              <span>Loremp imsup</span>
-            </div>
-          </div>
-        </div>
-        <div class="buapps font-13 white">
-          <div class="title text-center">
-            <span>Buapps 1</span>
-            <div class="img-buapps center margin-t-15">
-              <img src="assets/Images/imag.png" class="full-width" alt="">
-            </div>
-            <div class="descript center margin-t-15">
-              <span>Loremp imsup</span>
-            </div>
-          </div>
-        </div>
-        <div class="buapps font-13 white">
-          <div class="title text-center">
-            <span>Buapps 1</span>
-            <div class="img-buapps center margin-t-15">
-              <img src="assets/Images/imag.png" class="full-width" alt="">
-            </div>
-            <div class="descript center margin-t-15">
-              <span>Loremp imsup</span>
-            </div>
-          </div>
-        </div>
-        <div class="buapps font-13 white">
-          <div class="title text-center">
-            <span>Buapps 1</span>
-            <div class="img-buapps center margin-t-15">
-              <img src="assets/Images/imag.png" class="full-width" alt="">
-            </div>
-            <div class="descript center margin-t-15">
-              <span>Loremp imsup</span>
-            </div>
-          </div>
-        </div>
-        <div class="buapps font-13 white">
-          <div class="title text-center">
-            <span>Buapps 1</span>
-            <div class="img-buapps center margin-t-15">
-              <img src="assets/Images/imag.png" class="full-width" alt="">
-            </div>
-            <div class="descript center margin-t-15">
-              <span>Loremp imsup</span>
-            </div>
-          </div>
-        </div>
-        <div class="buapps font-13 white">
-          <div class="title text-center">
-            <span>Buapps 1</span>
-            <div class="img-buapps center margin-t-15">
-              <img src="assets/Images/imag.png" class="full-width" alt="">
-            </div>
-            <div class="descript center margin-t-15">
-              <span>Loremp imsup</span>
+      <div id="sliderBu" class="flex ov-hi" >
+        <div id="sliderBu2" class="flex">
+          <div class="buapps font-13 white" *ngFor="let buapp of buapps">
+            <div class="title text-center">
+              <span>Buapps 1</span>
+              <div class="img-buapps center margin-t-15">
+                <img src="assets/Images/imag.png" class="full-width" alt="">
+              </div>
+              <div class="descript center margin-t-15">
+                <span>Loremp imsup</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      <i  class="fa fa-chevron-right" aria-hidden="true"></i>
     </div>
   </div>
 </div>
