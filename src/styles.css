@@ -181,3 +181,23 @@ input[type="text"]{
 .white{
   background-color: #ffffff;
 }
+.flex-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.tra{
+  background: transparent;
+}
+
+.border-not{
+  border: none;
+}
+.select-content{
+  width: 100px;
+  overflow: hidden;
+  background-image: url("assets/Images/static/select.png") !important;
+  background-repeat: no-repeat;
+}
+.margin-l-10{
+  margin-left: 10px;
+}
