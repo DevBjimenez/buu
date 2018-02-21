@@ -18,16 +18,14 @@
     width: 240px;
   }
   .list-apps{
-    border-top: 2px solid #bdbdbd;
+    height: 3px;
+    background:#bdbdbd;
   }
 
 }
 
 .progres{
-  width: 40px;
-  height: 0.3em;
-  position: relative;
-  top: -3.5px;
+  height: 100%;
 }
 #sliderBu{
   width: calc(100% - 70px);
@@ -45,6 +43,6 @@
 .buapps:nth-child(n+2){
   margin-left: 55px;
 }
-.buapps:last-child{
-  margin: 0 !important;
+#cright i{
+  cursor: pointer;
 }

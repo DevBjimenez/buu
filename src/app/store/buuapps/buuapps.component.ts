@@ -9,29 +9,42 @@ declare var $: any;
   styleUrls: ['./buuapps.component.scss']
 })
 export class BuuappsComponent implements OnInit, AfterViewChecked {
-  buapps: any = [
-    1, 2, 3, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2
-  ];
+  buapps: any = new Array(80);
   Ptotal: number;
+  Total: number;
+  Pconsumed: number = 0;
+  Ppor: number;
 
   constructor(private ele: ElementRef) {
   }
 
   ngOnInit() {
-    $("#cright" ).click(function() {
-      $("#sliderBu2").animate({ "margin-left": "-=50px" }, "slow" );
-    });
   }
 
+  left() {
+    if ((this.Pconsumed + this.Ptotal) < this.Total) {
+      this.Pconsumed = this.Pconsumed + this.Ptotal;
+      $('#prg').animate({"margin-left": "+=" + this.Ppor + "%"}, "slow");
+      $("#sliderBu2").animate({"margin-left": "-=" + this.Ptotal + "px"}, "slow");
+    }
+  }
+
+  right() {
+    if ((this.Pconsumed - this.Ptotal) > -1) {
+      this.Pconsumed = this.Pconsumed - this.Ptotal;
+      $('#prg').animate({"margin-left": "-=" + this.Ppor + "%"}, "slow");
+      $("#sliderBu2").animate({"margin-left": "+=" + this.Ptotal + "px"}, "slow");
+    }
+  }
 
   ngAfterViewChecked() {
-    this.Ptotal = (this.buapps.length * 230) - 110;
-    console.log(this.Ptotal, document.getElementById('sliderBu2').offsetWidth)
+    const total = document.getElementById('sliderBu2').offsetWidth;
+    this.Total = total;
     let Pslide = document.getElementById('sliderBu').offsetWidth;
-    Pslide = Pslide * 100 / this.Ptotal;
+    this.Ptotal = Pslide;
+    Pslide = Pslide * 100 / total;
+    this.Ppor = Pslide;
     document.getElementById('prg').style.width = Pslide + '%';
-
-
   }
 
 }
