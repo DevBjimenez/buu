@@ -201,3 +201,10 @@ input[type="text"]{
 .margin-l-10{
   margin-left: 10px;
 }
+.text-gris{
+  color: #a09c9c;
+}
+.badge-bu{
+  height: 20px;
+  border-radius: 10px;
+}

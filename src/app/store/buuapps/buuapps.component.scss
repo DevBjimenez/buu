@@ -31,18 +31,25 @@
   width: calc(100% - 70px);
 }
 .buapps{
-  width: 150px;
-  min-width: 150px;
   box-shadow: 0px 0px 11px 0px #bfbfbf6b;
   border-radius: 3px;
-  padding: 20px 10px;
+  padding: 30px 10px;
 }
 .img-buapps{
-  width: 85px;
+  width: 95px;
 }
-.buapps:nth-child(n+2){
-  margin-left: 55px;
+.content-b:nth-child(n+2){
+  margin-left: 60px;
 }
 #cright i{
   cursor: pointer;
+}
+.content-b{
+  width: 200px;
+}
+.badge-bu{
+  width: 60px;
+}
+section > img:nth-child(n+2){
+  margin-left: 5px;
 }
