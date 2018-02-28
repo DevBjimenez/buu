@@ -1,0 +1,255 @@
+/* You can add global styles to this file, and also import other style files */
+
+html * {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.gradient-1 {
+    background: linear-gradient(to right, #4F4970, #FF7761);
+}
+
+.gradient-2 {
+    background: linear-gradient(to right, #7792ff, #b877f7);
+}
+
+.gradient-3 {
+    background: linear-gradient(to right, #ff928d, #b877f7);
+}
+
+.gradient-4 {
+    background: linear-gradient(to right, #f0c2df, #ffc770);
+}
+
+.gradient-v2 {
+    background: linear-gradient(to bottom, #7792ff, #b877f7);
+}
+
+.gradient-v1 {
+    background: linear-gradient(to bottom, #4F4970, #FF7761);
+    height: 100%;
+    width: 100%;
+}
+
+.gradient-v3 {
+    background: linear-gradient(to bottom, #ff928d, #b877f7);
+}
+
+.gradient-v4 {
+    background: linear-gradient(to bottom, #f0c2df, #ffc770);
+}
+
+.font-12 {
+    font-size: 12pt;
+}
+
+.font-13 {
+    font-size: 13pt;
+}
+
+.font-28 {
+    font-size: 28pt;
+}
+
+.font-16 {
+    font-size: 16pt;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    src: url('./assets/Fonts/futura/futur.ttf');
+}
+
+@font-face {
+    font-family: 'Futura-medium';
+    font-style: normal;
+    src: url('./assets/Fonts/futura/futuramediumbt.ttf');
+}
+
+.Futura {
+    font-family: 'Futura';
+}
+
+.futura-medium {
+    font-family: 'Futura-medium';
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.center {
+    margin: 0 auto !important; // margin-left: -200px !important;
+    // transition-property: margin-left;
+    // transition-duration: 1s;
+    // transition-timing-function: linear;
+}
+
+.fondo-gris {
+    background-color: #f2f2f2;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.list {
+    padding-left: 26px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    margin: 7px 0;
+    border-left: 4px solid transparent;
+}
+
+.list img {
+    margin-right: 15px;
+    height: 30px;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border-not {
+    border: none;
+}
+
+.ov-hi {
+    overflow: hidden;
+}
+
+input[type="text"] {
+    outline: none;
+}
+
+:focus {
+    outline: none !important;
+}
+
+.margin-t-40 {
+    margin-top: 40px !important;
+}
+
+.margin-t-30 {
+    margin-top: 30px !important;
+}
+
+.margin-t-20 {
+    margin-top: 20px !important;
+}
+
+.margin-t-15 {
+    margin-top: 15px !important;
+}
+
+.margin-t-10 {
+    margin-top: 10px !important;
+}
+
+.margin-t-5 {
+    margin-top: 5px !important;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #454;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.scrollShow::-webkit-scrollbar {
+    display: block !important;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tra {
+    background: transparent;
+}
+
+.border-not {
+    border: none;
+}
+
+.select-content {
+    width: 100px;
+    overflow: hidden;
+    background-image: url("assets/Images/static/select.png") !important;
+    background-repeat: no-repeat;
+}
+
+.margin-l-10 {
+    margin-left: 10px;
+}
+
+.text-gris {
+    color: #a09c9c;
+}
+
+.badge-bu {
+    height: 20px;
+    border-radius: 10px;
+}
